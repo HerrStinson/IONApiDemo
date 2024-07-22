@@ -1,17 +1,17 @@
 # IONApiDemo
 ## What is this
 Demos of how to connect to Infor's ION API to call MI Programs. Duh.
-One done in Powershell, one done in VBA to be used inside Excel.
+One done in Powershell, one done in VBA to be used inside Excel (currently not working for Infor's SaaS Multitenant cloud offering.
 
 ## How can I check this out?
 Do not clone one Onedrive based directory as VBA will act wonky and will not find the cred file. Yes, it's a demo.
 ### General
-Clone repo and place your .ionapi credential file inside the folder (included in .gitignore).
+Clone repo and place your .ionapi credential file inside the folder as CredFile.ionapi (included in .gitignore).
 ### Powershell
 Will execute MNS150MI/SelUsers
 - Start IONApiDemo.ps1
 ### Excel
-Will execute MNS150MI/SelUsers
+Will try to execute MNS150MI/SelUsers
 - Open IONApiDemo.xlsm in Excel
 - Open VBS IDE
 - Execute TestMICall()
